@@ -36,9 +36,8 @@ main {
 }
 
 ul {
-  /*display: flex;*/
   line-height: 1.5;
-  font-size: 1.3rem;
+  color: #b3b3b3;
 }
 
 footer {
