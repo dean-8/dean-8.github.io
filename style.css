@@ -36,7 +36,7 @@ main {
 }
 
 ul {
-  display: flex;
+  /*display: flex;*/
   line-height: 1.5;
   font-size: 1.3rem;
 }
