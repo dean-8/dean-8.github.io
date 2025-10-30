@@ -40,3 +40,20 @@ footer {
   color: #666;
   font-size: 0.9rem;
 }
+
+nav {
+  display: flex;
+  gap: 20px;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #4da6ff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover{
+  color: #66b3ff
+}
