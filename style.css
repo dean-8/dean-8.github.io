@@ -87,11 +87,14 @@ section {
 }
 
 section:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.952);
   border-radius: 10px;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.329);
 }
 
 section:nth-child(odd) {
-  background-color: rgba(40, 17, 46, 0.5);
+  background-color: rgba(40, 17, 46, 0.74);
   border-radius: 10px;
+  box-shadow: 10px 5px 20px rgba(40, 17, 46, 0.322);
+
 }
