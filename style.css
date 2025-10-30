@@ -58,7 +58,7 @@ nav a {
   border-radius: 5px;
   font-weight: bold;
   font-size: 1rem;
-  transition: background-color 0.3s;
+  transition: background-color 2s;
 }
 
 nav a:hover{
