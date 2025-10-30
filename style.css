@@ -35,6 +35,12 @@ main {
   align-items: center;
 }
 
+ul {
+  display: flex;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+
 footer {
   margin-bottom: 40px;
   color: #666;
