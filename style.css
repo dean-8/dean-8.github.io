@@ -25,13 +25,15 @@ h1 {
 h4 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-    text-decoration: underline;
-
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 p {
   font-size: 1rem;
   line-height: 1.5;
+  max-width: 700px;
   color: #b3b3b3;
 }
 
@@ -45,7 +47,7 @@ main {
 
 ul {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #b3b3b3;
 }
 
