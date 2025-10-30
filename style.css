@@ -92,6 +92,6 @@ section:nth-child(even) {
 }
 
 section:nth-child(odd) {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #3115395d;
   border-radius: 10px;
 }
