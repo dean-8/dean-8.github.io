@@ -100,8 +100,16 @@ section:nth-child(odd) {
 
 }
 
-img {
-  max-width: 300px;
+largeimg {
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
+  margin: 20px 0;
+}
+
+smallimg {
+  max-width: 500px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
