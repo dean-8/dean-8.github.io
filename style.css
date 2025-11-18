@@ -41,6 +41,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
 }
 ul {
   line-height: 1.5;
@@ -101,12 +102,12 @@ section:nth-child(odd) {
   box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
   margin: 20px 0;
 }
-.imgrow{
+.img_row{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.content_row{
+.three_col{
   display: flex;
   justify-content: center;
   align-items: flex-start;
