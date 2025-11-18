@@ -106,18 +106,18 @@ section:nth-child(odd) {
 .img_row{
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 1rem;
 }
 .three_col{
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
-  gap: 20rem;
+  gap: 2rem;
 }
 .left_column{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 20rem;
+  gap: 2rem;
 }
