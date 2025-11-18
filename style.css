@@ -106,7 +106,7 @@ section:nth-child(odd) {
 .img_col{
   display: flex;
   flex-shrink: 0;
-  width: 10rem;
+  width: 30rem;
   flex-direction: column;
   gap: 1rem;
 }
@@ -118,7 +118,7 @@ section:nth-child(odd) {
 }
 .left_column{
   display: flex;
-  width: 10rem;
+  width: 30rem;
   flex-shrink: 0;
 }
 
