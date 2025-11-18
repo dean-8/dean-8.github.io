@@ -100,7 +100,7 @@ section:nth-child(odd) {
 
 }
 
-largeimg {
+.largeimg {
   max-width: 500px;
   height: auto;
   border-radius: 10px;
@@ -108,7 +108,7 @@ largeimg {
   margin: 20px 0;
 }
 
-smallimg {
+.smallimg {
   max-width: 500px;
   height: auto;
   border-radius: 10px;
