@@ -112,5 +112,4 @@ section:nth-child(odd) {
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
-  width: 100%;
 }
