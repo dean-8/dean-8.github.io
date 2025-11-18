@@ -90,7 +90,7 @@ section:nth-child(odd) {
 
 }
 .largeimg {
-  max-width: 20rem;
+  max-width: 400rem;
   height: auto;
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
@@ -98,7 +98,7 @@ section:nth-child(odd) {
 }
 
 .smallimg {
-  max-width: 10rem;
+  max-width: 200rem;
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
   margin: 20px 0;
@@ -112,11 +112,11 @@ section:nth-child(odd) {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40rem;
+  gap: 20rem;
 }
 .left_column{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40rem;
+  gap: 20rem;
 }
