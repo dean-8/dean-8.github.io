@@ -107,6 +107,7 @@ section:nth-child(odd) {
   flex-direction: column;
   justify-content: right;
   align-items: center;
+  
   max-width: 800px;
   height: auto;
   border-radius: 10px;
@@ -118,8 +119,9 @@ section:nth-child(odd) {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
+
   max-width: 500px;
   height: auto;
   border-radius: 10px;
