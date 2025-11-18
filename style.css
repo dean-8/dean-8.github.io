@@ -103,11 +103,17 @@ section:nth-child(odd) {
 }
 .imgrow{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   gap: 20px;
 }
 .content_row{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.left_column{
   display: flex;
   justify-content: center;
   align-items: flex-start;
