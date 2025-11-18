@@ -107,3 +107,10 @@ section:nth-child(odd) {
   justify-content: center;
   gap: 20px;
 }
+.content_row{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+}
