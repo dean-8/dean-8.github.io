@@ -120,7 +120,7 @@ section:nth-child(odd) {
   display: flex;
   width: 15rem;
   flex-shrink: 0;
-  gap: 0rem;
+  gap: 20rem;
 }
 
 .mid_col{
