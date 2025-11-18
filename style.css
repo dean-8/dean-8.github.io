@@ -90,7 +90,7 @@ section:nth-child(odd) {
 
 }
 .largeimg {
-  max-width: 400rem;
+  max-width: 40rem;
   height: auto;
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
@@ -98,7 +98,7 @@ section:nth-child(odd) {
 }
 
 .smallimg {
-  max-width: 200rem;
+  max-width: 20rem;
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
   margin: 20px 0;
