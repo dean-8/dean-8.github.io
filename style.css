@@ -113,7 +113,6 @@ section:nth-child(odd) {
 .three_col{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-direction: row;
   width: 100%;
   gap: 2rem;
@@ -123,7 +122,6 @@ section:nth-child(odd) {
   width: 15rem;
   flex-shrink: 0;
   justify-content: center;
-  align-items: flex-start;
   gap: 2rem;
 }
 
