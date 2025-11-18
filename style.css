@@ -121,7 +121,7 @@ section:nth-child(odd) {
   width: 15rem;
   flex-shrink: 0;
   justify-content: center;
-  gap: 2rem;
+  gap: 0rem;
 }
 
 .mid_col{
