@@ -103,8 +103,10 @@ section:nth-child(odd) {
   box-shadow: 0px 4px 12px rgba(77, 166, 255, 0.25);
   margin: 20px 0;
 }
-.img_row{
+.img_col{
   display: flex;
+  flex-shrink: 0;
+  width: 15rem;
   flex-direction: column;
   gap: 1rem;
 }
@@ -113,11 +115,20 @@ section:nth-child(odd) {
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
+  width: 100%;
   gap: 2rem;
 }
 .left_column{
   display: flex;
+  width: 15rem;
+  flex-shrink: 0;
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
+}
+
+.mid_col{
+  flex: 1;
+  max-width: 40rem;
+
 }
