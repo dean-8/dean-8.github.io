@@ -112,6 +112,7 @@ section:nth-child(odd) {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: row;
   gap: 20rem;
 }
 .left_column{
