@@ -89,12 +89,6 @@ section:nth-child(odd) {
 
 }
 .largeimg {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  align-items: center;
-
   max-width: 800px;
   height: auto;
   border-radius: 10px;
@@ -103,12 +97,6 @@ section:nth-child(odd) {
 }
 
 .smallimg {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  align-items: right;
-
   max-width: 100%;
   height: auto;
   border-radius: 10px;
