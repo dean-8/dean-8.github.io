@@ -66,17 +66,19 @@ h4 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
   text-decoration: underline;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2rem;
+}
+h5 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
 }
 p {
-  flex: 1;
-  display: flex;
   font-size: 1rem;
   line-height: 1.5;
-  max-width: 700px;
+  max-width: 50rem;
+  margin: auto;
   color: #b3b3b3;
-  justify-content: center;
 }
 main {
   flex: 1;
@@ -131,4 +133,8 @@ section:nth-child(odd) {
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
 
+}
+.img_caption p{
+  flex: 1;
+  font-size: 0.85rem
 }
