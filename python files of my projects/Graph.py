@@ -25,7 +25,7 @@ def find_price(date):
             curr_day = int(curr_date[w-5:w-3])
             curr_month = int(curr_date[:w-6])
             curr_year = int(curr_date[w-2:])
-
+ 
             next_date = excel["Dates"][y+1]
             v = len(next_date)
             next_day = int(next_date[v-5:v-3])
