@@ -8,6 +8,7 @@
   <title>DevDean</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
 </head>
 <body>
     
@@ -19,7 +20,63 @@
     
 
   <h1>My Projects</h1>
-    
+  
+  <p style="color: #ffffff5d; text-align: center;">(click the titles)</p><br>
+
+  <div id="text_content">
+      <h4 class="button" onclick="dropdown_menu('dropdown5')">Project 1: JP Morgan job simulation tasks</h4>
+      <section id="dropdown5" style="display:none">
+      <p>The projects below are from a Job simulation activity i completed run by JP Morgan. </p>
+      <h5 class="button" onclick="dropdown_menu('dropdown9')">Task 1:</h5>
+      <section id="dropdown9" style="display:none">
+      <p>For the first task, I was given a small csv file (linked above) containing the price of natural gas at the end of each month from 2020-2024 <br><br> I had to plot that data onto a graph, interpolate the graph to figure out prices between dates (such as in the middle of the month) and the final objective was to extrapolate the data for an extra year <br><br> This first task was the hardest for me personally, and took about 5-6 hours of coding, as i had never used data such as a csv file when coding before<br><br>I persevered throughout as it was very difficult, but I was really enjoying the challenge which kept me motivated <br><br></p>
+      </section>
+
+      <h5 class="button" onclick="dropdown_menu('dropdown10')">Task 2:</h5> 
+      <section id="dropdown10" style="display:none">
+      <p>For my next task, i had to create funtions that take in inputs: <br><br>~ Injection date of natural gas into a storage location<br>
+      ~ Withdrawal date of that natural gas from the storage location<br>
+      ~ Maximum amount able to be stored<br>
+      ~ The amount you want to buy and store<br>
+      ~ Cost of storage between Injection and Withdrawal date<br>
+      ~ Cost of injection/ withdrawal<br><br>
+      The hardest part of this task was finding the amount of months between the injection and withdrawal dates as they were inputted a strings so i had to find methods such as string slicing to compare months </p>
+      </section>
+
+      <h5 class="button" onclick="dropdown_menu('dropdown11')">Task 3:</h5>
+      <section id="dropdown11" style="display:none">
+      <p>This task was completely different to the first two, <br><br>
+      I was given a large csv file with 10,000 records with information of peoples incomes, outstanding debt, outstanding loan, fico score and other relevant information about each person<br><br>my task was to make a program to output the probability of a customer defaulting on their lones and return the expect money lost<br><br>I looked at a few factors such as fico score as well as working out the loan as a % of their income<br><br>By looking at my already existing data i found the probability od default if these numbers were inputted</p>
+      </section>
+
+
+
+
+      </section>
+
+      <h4 class="button" onclick="dropdown_menu('dropdown6')">Project 2: Matrix calculator in python from scratch</h4>
+      <section id="dropdown6" style="display:none">
+      <p>For this project, I created a matrix calculator using python's tkinter library to create a GUI for the user to interact with <br><br>
+      The user can input two matrices of size 2x2 up to 4x4 and then select from a variety of operations to perform on the matrices such as addition, subtraction, multiplication, determinant and inverse <br><br>
+      I found this project quite helpful as i had been learning about Object oriented programming (OOP) as well as learning how to use tkinter to create user interfaces but i was feeling not so confident in my abilities <br><br>So by creating this project i was able to practice both skills and now feel much more confident in my abilities with both OOP and tkinter <br><br>Below is a screenshot of the GUI as well as a link to download the code itself (coming soon)</p>
+      </section>
+
+      <h4 class="button" onclick="dropdown_menu('dropdown7')">Project 3: School project website</h4>
+      <section id="dropdown7" style="display:none">
+      <p>Here is a website i made as a school project which developed my javascript html and css skills, i created a basic A-Level subject study guide.</p>
+      <a class="button" id="website-link" href="WEB BUILDING PROJECT FILES/login.html" target="_blank">Website link</a>
+      </section>
+      
+      <!--
+      <h4 class="button" onclick="dropdown_menu('dropdown8')">Project 4</h4>
+      <section id="dropdown8" style="display:none">
+      <p>text</p>
+      </section> 
+      -->
+    </div>
+
+
+
 
 
 
