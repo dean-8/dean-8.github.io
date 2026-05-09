@@ -24,7 +24,7 @@ ul.a {
 }
 
 ul.a li {
-  float: right;
+  float: left;
 }
 
 ul.a li a {
@@ -46,17 +46,13 @@ text-align: left;
 }
 
 
-
-
-header {
-  margin-top: 100px;
-}
 h1 {
   font-family: 'Inter';
   font-size: 3.2rem;
   margin-left: 2rem;
   color: #e9e9e9;
   text-align: left;
+  margin-top: 0.3rem;
   
 } 
 h4 {
