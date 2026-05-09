@@ -70,6 +70,7 @@ p {
   margin: auto;
   color: #b3b3b3;
   text-align: center;
+  padding: 0.5rem;
 }
 
 #large-text{
@@ -86,26 +87,22 @@ p {
   width: 100%;
   height: 50px;
 }
-
+/* */
 .button {
-display: inline-block;
 width: 300px;
-padding: 12px 20px;
-background-color: #185FA5;
-color: #E6F1FB;
-text-decoration: none;
-font-family: "Monaco", monospace;
-font-size: 13px;
-border-radius: 8px;
+font-size: 2rem;
 text-align: center;
-border: 1px solid #0C447C;
 transition: background 0.15s, transform 0.1s;
 cursor: pointer;
+user-select: none;
+align-content: center;
+margin: auto;
+padding: 1rem;
 }
 
 .button:hover{
-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.5);
-transform: scale(1.01, 1.05);
+  color: #babdc0c2;
+
 }
 
 .button:active{
@@ -117,4 +114,8 @@ transform: scale(0.99, 0.95);
 text-align: center;
 font-size: 1rem;
 
+}
+
+#dropdown{
+display:none;
 }
