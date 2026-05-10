@@ -25,6 +25,7 @@ ul.a {
 
 ul.a li {
   float: left;
+  margin-left: 1rem;
 }
 
 ul.a li a {
