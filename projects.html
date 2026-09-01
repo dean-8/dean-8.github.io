@@ -11,13 +11,15 @@
 
 </head>
 <body>
-    
-  <ul class="a">
-    <li><a id="navbutton"  href="projects.html">Projects</a></li>
-    <li><a id="navbutton"  href="about.html">About</a></li>
-    <li><a id="navbutton"  href="index.html">Home</a></li>
+<ul class="a">
+    <li><a id="navbutton" href="projects.html">Projects</a></li>
+    <li><a id="navbutton" href="about.html">About</a></li>
+    <li class="profile-nav-item">
+      <a href="index.html" class="profile-btn">
+        <img src="me_pfp.png" alt="Home" class="profile-img">
+      </a>
+    </li>
   </ul>
-    
 
   <h1>My Projects</h1>
   
@@ -77,7 +79,11 @@
       </section> 
       
 
-
+      <h4 class="button" onclick="dropdown_menu('dropdown12')">Project 5: Maze Generator & Solver</h4>
+      <section id="dropdown12" style="display:none">
+      <p>I built a pathfinding and visual demonstration tool from scratch using Python and Pygame. <br><br>
+      The application implements custom maze generation algorithms alongside pathfinding solvers, featuring real-time visual speed controls, customizable grid dimensions, directional algorithm indicators, and performance benchmarking to evaluate pathfinding efficiency.</p>
+      </section>
 
 
 

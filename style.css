@@ -15,17 +15,21 @@ body {
 
 ul.a {
   list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding: 0; 
   background-color: #3333332a;
   font-size: 20px;
-
+  align-items: center;
 }
 
 ul.a li {
-  float: left;
-  margin-left: 1rem;
+  margin: 0.5rem 1rem;
+}
+
+ul.a li.profile-nav-item {
+  margin-left: auto;
 }
 
 ul.a li a {
@@ -132,4 +136,52 @@ border-radius: 8px;
 text-align: left;
 transition: background 0.15s, transform 0.1s;
 margin-left:2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background-color: #222222;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #444444;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+
+
+/* Profile image button styling */
+.profile-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  display: block;
+  padding: 0 0;
+}
+
+.profile-img:hover {
+  transform: scale(1.08);
 }
