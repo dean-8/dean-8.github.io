@@ -3,7 +3,7 @@ import pandas as pd
 #matplotlib creates graph (used in class)
 import matplotlib.pyplot as plt
 
-excel = pd.read_csv('Nat_Gas.csv')
+excel = pd.read_csv('task1_2.csv')
 
 def find_price(date):
     l = len(date)
