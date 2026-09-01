@@ -185,3 +185,17 @@ margin-left:2rem;
 .profile-img:hover {
   transform: scale(1.08);
 }
+
+#tooltip {
+  position: fixed;
+  display: none;
+  background-color: #222222;
+  color: #ffffff;
+  padding: 3px 6px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #444444;
+  pointer-events: none; /* Prevents the tooltip from interfering with mouse movement */
+  white-space: nowrap;
+  z-index: 1000;
+}

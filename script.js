@@ -11,3 +11,21 @@ function dropdown_menu(id){
   }
   return false;
 }
+
+function showTooltip(e) {
+  const tooltip = document.getElementById('tooltip');
+  
+  // Display briefly to calculate offset width
+  tooltip.style.display = 'block';
+  
+  // Offset 10px to the left of the cursor, plus the element's full width
+  const offsetLeft = e.clientX - tooltip.offsetWidth - 10;
+  
+  tooltip.style.left = offsetLeft + 'px';
+  tooltip.style.top = (e.clientY + 15) + 'px';
+}
+
+function hideTooltip() {
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.display = 'none';
+}
